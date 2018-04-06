@@ -70,9 +70,7 @@ public class TelaCalculadora extends javax.swing.JFrame {
         TelaCalculadora.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jScrollPane2.setViewportView(TelaCalculadora);
 
-        multiplicacao.setBackground(new java.awt.Color(204, 102, 255));
         multiplicacao.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        multiplicacao.setForeground(new java.awt.Color(204, 51, 255));
         multiplicacao.setText("*");
         multiplicacao.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -277,7 +275,7 @@ public class TelaCalculadora extends javax.swing.JFrame {
                 .addGroup(jInternalFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(botao0)
                     .addComponent(igual))
-                .addContainerGap(37, Short.MAX_VALUE))
+                .addContainerGap(57, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
